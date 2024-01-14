@@ -35,7 +35,9 @@ p{
 =======
   <p>main : Now, I'm going to create a new branch to test merge conflict while merging.</p>
 >>>>>>> main
-  <p>Now, I am going to undo the changes using git reset HEAD~1 (HEAD points to the last commit and ~1 means revert to one commit before).</p>
+  <p>Now, I am going to undo the changes using git reset HEAD~1 (HEAD points to the last commit and ~1 means revert to one commit before). This will unstage the commit, but it won't reflect it.To reflect the change we need to commit it.
+  </p>
+  <p>Inorder to reflect the changes, we can make the reset git reset --hard 'commit_id' . To get the commit id, use git log (it will show the log in reverse chronological order).</p>
   
 </body>
 </html>
