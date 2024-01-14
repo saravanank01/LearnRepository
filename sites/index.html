@@ -24,9 +24,23 @@ p{
  <a  href="https://www.google.com" target="_blank" >Search</a>
  </div>
  <p> Here, the content about git merge from "branch1-content" will be merged I guess.</p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> quick-test
   <p> Now , I've created a new branch named "branch1-content". In that branch, i added a new html file. Now I'm going to merge main and branch1 locally using "git merge".Before that, i want to double check the see the code that are merging in which i can do with get diff.  </p>
   <p>Before merging the subbranch with the main branch, we want to push the subbranch to github. To do that, we simply right git push..Oh No!,it result it error!. It wants us to first set up the subbranch to push. </p>
   <p>Now i'm going to delete the branch using cmd : git branch -d branch1-content in local. To delete the branch on remote, git push --delete origin branch1-content.</p>
+<<<<<<< HEAD
+
+  <p>quick-test : Now, I'm going to create a new branch to test merge conflict while merging.</p> 
+
+=======
   <p>main : Now, I'm going to create a new branch to test merge conflict while merging.</p>
+>>>>>>> main
+  <p>Now, I am going to undo the changes using git reset HEAD~1 (HEAD points to the last commit and ~1 means revert to one commit before). This will unstage the commit, but it won't reflect it.To reflect the change we need to commit it.
+  </p>
+  <p>Inorder to reflect the changes, we can make the reset git reset --hard 'commit_id' . To get the commit id, use git log (it will show the log in reverse chronological order).</p>
+  
 </body>
 </html>
