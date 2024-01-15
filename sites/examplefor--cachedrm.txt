@@ -1,1 +1,0 @@
-this is a sample file for testing git rm --cached file_path 
