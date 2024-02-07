@@ -50,8 +50,9 @@ format ; 10 git log --since=2.weeks : these are time limiting options which fetc
   14 git log -S function_name : this -S filter is search for commits that introduce or remove a particular line of source code.This is called <strong>pickaxe</strong> ;15 git log -- sites/index.html : to retrieve the commit log of a specified path ; 16) git commit --amend  :  redo that commit, make the additional changes you forgot, stage them, and commit again.
  </p>
  <p> <strong> 07.02.2024 :</strong> 
-    17) git reset HEAD file_name : If we use git add * to stage multiple files and want to unstage one of those file, we use this reset command.This without --hard option is safe, file in working directory is not touched.
-    18) git checkout filename : used to remove the changes happened in unstaged area.In other words, it will revert the changes made in the unstage area.
+    17) unstaging specifc file >> git reset HEAD file_name : If we use git add * to stage multiple files and want to unstage one of those file, we use this reset command.This without --hard option is safe, file in working directory is not touched ;
+    18)unmodifying file >> git checkout filename : used to remove the changes happened in unstaged area.In other words, it will revert the changes made in the unstage area and reflect those changes in working dir ;
+    19) unstaging a stage file >> git restore ;
  </p> 
 </body>
 </html>
