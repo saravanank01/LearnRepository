@@ -1,2 +1,0 @@
-MONGO_URI=mongodb+srv://<userid>:<password>@cluster0.fxehibo.mongodb.net/QRCodeDB?retryWrites=true&w=majority
-BASE=http://<yourhost>:<your port>
