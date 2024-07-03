@@ -63,9 +63,11 @@ format ; 10 git log --since=2.weeks : these are time limiting options which fetc
  </p>
  <p><strong>03.07.2024: REVSIING GIT BRANCH CREATION AND MERGING.</strong>
       21) creating new branch >> git checkout -b new_branch_name : -b stands for branch creation. (Also git checkout can be used with filenames to clear the unstaged modification).
-      24) NOTE: merge conflict appears while the same lines of a file is modified and merged.It makes the file into modified state with CONFLICT DIVIDERS. ====== : is the center of the conflict. All the content between the center (=======) and &lt;&lt;&lt;&lt;HEAD line is content that exist in the current branch which the HEAD pointer is pointing to. Alternativelly, all the content after the center and &gt;&gt;&gt;&gt;branch_name is present in merging branch.
-      23) merging the branches >> git merge branch_name: merge the branch to the current working branch.
       22)switching to branches >> git checkout branch_name_to_switch : used to switch between branches.
+      23) merging the branches >> git merge branch_name: merge the branch to the current working branch.
+      
+      24) NOTE: merge conflict appears while the same lines of a file is modified and merged.It makes the file into modified state with CONFLICT DIVIDERS. ====== : is the center of the conflict. All the content between the center (=======) and &lt;&lt;&lt;&lt;HEAD line is content that exist in the current branch which the HEAD pointer is pointing to. Alternativelly, all the content after the center and &gt;&gt;&gt;&gt;branch_name is present in merging branch.
+      25). deleting branches >> git checkout -d branch_name_to_delete : deletes the branch.
  </p>
 </body>
 </html>
